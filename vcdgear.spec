@@ -5,8 +5,6 @@ Version:	1.6b
 Release:	1
 License:	unknown
 Group:		Applications/File
-Group(de):	Applikationen/Datei
-Group(pl):	Aplikacje/Pliki
 Source:		http://www.vcdgear.com/files/%{name}16b_i386_redhat62.tar.gz
 URL:		http://www.vcdgear.com/
 Vendor:		Dracore <dracore@home.com>
