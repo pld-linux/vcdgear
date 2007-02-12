@@ -1,5 +1,5 @@
 Summary:	Convert various MPEG file format
-Summary(pl):	Konwerter ró¿nego rodzaju plików MPEG
+Summary(pl.UTF-8):   Konwerter rÃ³Å¼nego rodzaju plikÃ³w MPEG
 Name:		vcdgear
 Version:	1.6b
 Release:	1
@@ -19,10 +19,10 @@ This program allow convert MPEG files in various format:
 .raw --> .mpg, .cif --> .mpg, .mpg --> .mpg, .mpg --> .dat,
 .dat --> .mpg.
 
-%description -l pl
-Program pozwala na konwersjê plików MPEG w ró¿nych formatach:
-.cue --> .raw (.cue do obrazu ¶cie¿ki .raw/.bin), .cue --> .dat,
-.cue --> .mpg, .raw --> .dat (obraz ¶cie¿ki .raw/.bin do .dat),
+%description -l pl.UTF-8
+Program pozwala na konwersjÄ™ plikÃ³w MPEG w rÃ³Å¼nych formatach:
+.cue --> .raw (.cue do obrazu Å›cieÅ¼ki .raw/.bin), .cue --> .dat,
+.cue --> .mpg, .raw --> .dat (obraz Å›cieÅ¼ki .raw/.bin do .dat),
 .raw --> .mpg, .cif --> .mpg, .mpg --> .mpg, .mpg --> .dat,
 .dat --> .mpg
 
