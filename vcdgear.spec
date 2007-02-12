@@ -1,5 +1,5 @@
 Summary:	Convert various MPEG file format
-Summary(pl.UTF-8):   Konwerter różnego rodzaju plików MPEG
+Summary(pl.UTF-8):	Konwerter różnego rodzaju plików MPEG
 Name:		vcdgear
 Version:	1.6b
 Release:	1
