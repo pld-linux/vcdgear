@@ -1,12 +1,12 @@
 Summary:	Convert various MPEG file format
 Summary(pl.UTF-8):	Konwerter różnego rodzaju plików MPEG
 Name:		vcdgear
-Version:	1.6b
+Version:	1.76
 Release:	1
 License:	unknown
 Group:		Applications/File
-Source0:	http://www.vcdgear.com/files/%{name}16b_i386_redhat62.tar.gz
-# Source0-md5:	67c0cf35bfb6cdc83f088c574e4b507b
+Source0:	http://www.vcdgear.com/files/vcdgear176-040415_linux.tar.gz
+# Source0-md5:	d5341a6f72122ea73b2be9e44bc14e5d
 URL:		http://www.vcdgear.com/
 Vendor:		Dracore <dracore@home.com>
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -27,18 +27,18 @@ Program pozwala na konwersję plików MPEG w różnych formatach:
 .dat --> .mpg
 
 %prep
-%setup -q -n %{name}16
+%setup -q -n %{name}
 
 %install
 rm -rf $RPM_BUILD_ROOT
 
 install -d			$RPM_BUILD_ROOT%{_bindir}
-install %{name}[0-9][0-9]	$RPM_BUILD_ROOT%{_bindir}/%{name}
+install %{name}			$RPM_BUILD_ROOT%{_bindir}/%{name}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.txt
+%doc Changelog Credits
 %attr(755,root,root) %{_bindir}/*
